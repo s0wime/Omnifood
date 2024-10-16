@@ -79,6 +79,10 @@ body {
   /* border: 3px solid #fff; */
 }
 
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
 .hero-image {
   width: 100%;
 }
