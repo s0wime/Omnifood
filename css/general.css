@@ -27,7 +27,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 
 .grid--2-cols {
@@ -38,8 +39,13 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--center-v {
+  align-items: center;
+}
+
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #333;
@@ -58,6 +64,9 @@ body {
 }
 
 .heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
 .subheading {
