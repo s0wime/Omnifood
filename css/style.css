@@ -57,6 +57,9 @@ body {
   margin-bottom: 9.6rem;
 }
 
+.heading-tertiary {
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
@@ -233,6 +236,13 @@ body {
 
 .section-how {
   padding: 9.6rem 0;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #ddd;
 }
 
 .step-img {
