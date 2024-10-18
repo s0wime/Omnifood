@@ -91,7 +91,7 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 0.9rem;
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
