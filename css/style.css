@@ -282,3 +282,28 @@
 .meal-img {
   width: 100%;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.6rem;
+}
+
+.list-item {
+  display: flex;
+  font-size: 1.8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.all-recipes {
+  font-size: 1.8rem;
+  text-align: center;
+}
