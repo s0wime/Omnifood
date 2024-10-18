@@ -218,6 +218,12 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
   border-radius: 1.1rem;
   overflow: hidden;
+  transition: all 0.3s;
+}
+
+.meal:hover {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  transform: translateY(-1.2rem);
 }
 
 .meal-content {
