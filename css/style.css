@@ -319,10 +319,15 @@
 /**************************/
 
 .section-testimonials {
+  background-color: #fae5d3;
+}
+
+.textimonials-gallery-box {
   display: grid;
   grid-template-columns: 55fr 45fr;
+  max-width: 140rem;
+  margin: 0 auto;
   align-items: center;
-  background-color: #fae5d3;
 }
 
 .testimonials-container {
