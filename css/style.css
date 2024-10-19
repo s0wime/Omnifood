@@ -320,7 +320,8 @@
 
 .section-testimonials {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
   background-color: #fae5d3;
 }
 
@@ -350,7 +351,7 @@
 
 .testimonial-name {
   font-size: 1.6rem;
-  color: #777;
+  color: #6f6f6f;
 }
 
 .gallery {
@@ -360,7 +361,16 @@
   gap: 1.6rem;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-item img {
   display: block;
   width: 100%;
+  transition: all 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
