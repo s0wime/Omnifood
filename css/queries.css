@@ -85,4 +85,8 @@
   .hero-image {
     width: 60%;
   }
+
+  .featured-logos img {
+    height: 2.4rem;
+  }
 }
