@@ -117,4 +117,8 @@
   .btn--form {
     margin-top: 1.2rem;
   }
+
+  .btn-mobile-nav {
+    display: block;
+  }
 }
