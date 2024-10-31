@@ -173,6 +173,7 @@ body {
   font-size: 1.8rem;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
