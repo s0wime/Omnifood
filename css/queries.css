@@ -89,4 +89,20 @@
   .featured-logos img {
     height: 2.4rem;
   }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.6rem;
+  }
+
+  .textimonials-gallery-box {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
