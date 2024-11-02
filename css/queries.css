@@ -220,4 +220,22 @@
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.2rem;
+  }
+
+  .hero-image {
+    width: 80%;
+  }
 }
