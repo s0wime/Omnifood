@@ -2,6 +2,11 @@ const year = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 year.textContent = currentYear;
 
+const btnMobileNav = document.querySelector(".btn-mobile-nav");
+btnMobileNav.addEventListener("click", function () {
+  document.querySelector(".header").classList.toggle("nav-open");
+});
+
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
