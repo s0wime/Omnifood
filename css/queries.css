@@ -238,4 +238,8 @@
   .hero-image {
     width: 80%;
   }
+
+  .featured-logos img {
+    height: 1.2rem;
+  }
 }
