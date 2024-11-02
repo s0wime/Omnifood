@@ -254,4 +254,13 @@
   .step-img-box {
     transform: translateY(2.4rem);
   }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
 }
